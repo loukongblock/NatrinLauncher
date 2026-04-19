@@ -1,0 +1,236 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Natrin/1.0.0": {
+        "dependencies": {
+          "Flurl": "4.0.0",
+          "Flurl.Http": "4.0.2",
+          "Manganese": "1.3.2",
+          "MinecraftLaunch": "4.0.6-preview10",
+          "MinecraftLaunch.Base": "1.1.14",
+          "MinecraftLaunch.NPinyin": "1.0.0",
+          "MinecraftLaunch.PinyinConverter": "1.0.0",
+          "MinecraftLaunch.Skin": "1.0.1",
+          "ModuleLauncher.Re": "4.2.2",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "Natrin.dll": {}
+        }
+      },
+      "Flurl/4.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Flurl.Http/4.0.2": {
+        "dependencies": {
+          "Flurl": "4.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "Manganese/1.3.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Manganese.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MinecraftLaunch/4.0.6-preview10": {
+        "dependencies": {
+          "Flurl.Http": "4.0.2",
+          "MinecraftLaunch.Base": "1.1.14"
+        },
+        "runtime": {
+          "lib/net8.0/MinecraftLaunch.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.0.6.0"
+          }
+        }
+      },
+      "MinecraftLaunch.Base/1.1.14": {
+        "dependencies": {
+          "NbtToolkit": "0.1.2-beta"
+        },
+        "runtime": {
+          "lib/net8.0/MinecraftLaunch.Base.dll": {
+            "assemblyVersion": "1.1.14.0",
+            "fileVersion": "1.1.14.0"
+          }
+        }
+      },
+      "MinecraftLaunch.NPinyin/1.0.0": {
+        "runtime": {
+          "lib/net6.0/MinecraftLaunch.NPinyin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MinecraftLaunch.PinyinConverter/1.0.0": {
+        "runtime": {
+          "lib/net6.0/PinYinConverterCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MinecraftLaunch.Skin/1.0.1": {
+        "dependencies": {
+          "Flurl.Http": "4.0.2",
+          "SixLabors.ImageSharp": "3.1.4"
+        },
+        "runtime": {
+          "lib/net7.0/MinecraftLaunch.Skin.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "ModuleLauncher.Re/4.2.2": {
+        "dependencies": {
+          "Flurl.Http": "4.0.2",
+          "Manganese": "1.3.2"
+        },
+        "runtime": {
+          "lib/net8.0/ModuleLauncher.NET.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NbtToolkit/0.1.2-beta": {
+        "runtime": {
+          "lib/net8.0/NbtToolkit.dll": {
+            "assemblyVersion": "0.1.2.0",
+            "fileVersion": "0.1.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.4": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Natrin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flurl/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rpts69yYgvJqg6PPgqShBQEZ4aNzWQqWpWppcT0oDWxDCIsBqiod4pj6LQZdhk+1OozLFagemldMRACdHF3CsA==",
+      "path": "flurl/4.0.0",
+      "hashPath": "flurl.4.0.0.nupkg.sha512"
+    },
+    "Flurl.Http/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9vCqFFyceA11yplkFD8AbCFFTvG1Lrw3tpsgOpL5sLUc28p6zcvGszNleuT6nDymRvtt5eS+rqUX+bRztg1fhA==",
+      "path": "flurl.http/4.0.2",
+      "hashPath": "flurl.http.4.0.2.nupkg.sha512"
+    },
+    "Manganese/1.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8WU5MttfDDv5jSe0OHZPS77W/9eF5Ed4vHCVe01roW8pOaBNW/StuEetqdjR2XDrBbgvLxyRFqxD30/oky8UHA==",
+      "path": "manganese/1.3.2",
+      "hashPath": "manganese.1.3.2.nupkg.sha512"
+    },
+    "MinecraftLaunch/4.0.6-preview10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FK00xlZhO8ArNgb9RhqIAV/eQEhoTDBqLbjU0QEvV89mP12vnXQsgGRh/iyAQpfeP/2T+5Dw1AP2nt71jQvBfw==",
+      "path": "minecraftlaunch/4.0.6-preview10",
+      "hashPath": "minecraftlaunch.4.0.6-preview10.nupkg.sha512"
+    },
+    "MinecraftLaunch.Base/1.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9W99d7PYjuvKMciv1R4I3HME5oWIfHgM+H098JK04R/AjQo9lOOpY45cm7NUv8mVP8lXORCkcTj3C8SCxeERlQ==",
+      "path": "minecraftlaunch.base/1.1.14",
+      "hashPath": "minecraftlaunch.base.1.1.14.nupkg.sha512"
+    },
+    "MinecraftLaunch.NPinyin/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cna1CkN/jIp8k5ChyW9vfveZqbvvWKHmRJVf7R+dQ6utNR1RFPN/DTciuSWdsts1WdFO9F4kKcQymY/AeIiwnQ==",
+      "path": "minecraftlaunch.npinyin/1.0.0",
+      "hashPath": "minecraftlaunch.npinyin.1.0.0.nupkg.sha512"
+    },
+    "MinecraftLaunch.PinyinConverter/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-edH81gz3+Xz19VnZ7EZtwNkhXEhnSXW06Pl3BRLKbOWhEODO5t3aWh/aYR0LOnrOg+glv6seXfgx8+bBzSjgdA==",
+      "path": "minecraftlaunch.pinyinconverter/1.0.0",
+      "hashPath": "minecraftlaunch.pinyinconverter.1.0.0.nupkg.sha512"
+    },
+    "MinecraftLaunch.Skin/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-noR0jaUrK/Cot8OqNf/qae11EJxvg2icukwmi5Yju6UzwWA4lMKpuxKfrrGGr6SJP6J7DeBkLK5JZ0rkR7NLmA==",
+      "path": "minecraftlaunch.skin/1.0.1",
+      "hashPath": "minecraftlaunch.skin.1.0.1.nupkg.sha512"
+    },
+    "ModuleLauncher.Re/4.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wknJ418TpHUI6C3l7dSbY3aRldxCZupYy4Ay0yt8g3K47vzTmDt5mL6ws0lfiDy5B+JPqnqNGjt/vDp5VLHjog==",
+      "path": "modulelauncher.re/4.2.2",
+      "hashPath": "modulelauncher.re.4.2.2.nupkg.sha512"
+    },
+    "NbtToolkit/0.1.2-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hGV8NGd/zIL99RAeKBE3Anw6kChJ3LMYXhW1aLs65wSMf394AufoztOBpZgAfEj8MGGKBvbWgnYYcTd4vJpjZQ==",
+      "path": "nbttoolkit/0.1.2-beta",
+      "hashPath": "nbttoolkit.0.1.2-beta.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lFIdxgGDA5iYkUMRFOze7BGLcdpoLFbR+a20kc1W7NepvzU7ejtxtWOg9RvgG7kb9tBoJ3ONYOK6kLil/dgF1w==",
+      "path": "sixlabors.imagesharp/3.1.4",
+      "hashPath": "sixlabors.imagesharp.3.1.4.nupkg.sha512"
+    }
+  }
+}

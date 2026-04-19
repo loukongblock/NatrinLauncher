@@ -1,0 +1,182 @@
+{
+  "dev.natrin.skia.module.ClickGui": {
+    "Enabled": false,
+    "Keybind": 344,
+    "Outline": true,
+    "Chinese": false,
+    "renderBackground": false,
+    "Global Corner": 20.0,
+    "Theme Color": 2147483647,
+    "Glow Radius": 6.0,
+    "Glow Intensity": 0.7,
+    "Acrylic Strength": 20.0,
+    "PosX": 705.0,
+    "PosY": 449.0
+  },
+  "dev.natrin.skia.module.DynamicIsland": {
+    "Keybind": 0,
+    "Enabled": true,
+    "Speed": 0.14999999,
+    "Corner Radius": 12.0,
+    "PosX": 0.5,
+    "PosY": 0.04,
+    "Glass Opacity": 0.12,
+    "Outline": true,
+    "Outline Opacity": 0.35
+  },
+  "dev.natrin.skia.module.FakeAutoBlock": {
+    "Keybind": 0,
+    "Enabled": false,
+    "X Offset": 0.4,
+    "Y Offset": 0.4,
+    "Z Offset": -0.3,
+    "Only Sword": true,
+    "Allow Tools": false,
+    "Allow Blocks": false,
+    "Allow Foods": false,
+    "Allow Others": false,
+    "SilentAura Only": false,
+    "Swing Animation": false,
+    "Swing Speed": 10.0
+  },
+  "dev.natrin.skia.module.Fly": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Mode": "Creative"
+  },
+  "dev.natrin.skia.module.Sprint": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Mode": "Legit"
+  },
+  "dev.natrin.skia.module.Stuck": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Mode": "Simple",
+    "Packet Delay": 3.0,
+    "Jitter": 0.0050000004,
+    "Auto Disable": true
+  },
+  "dev.natrin.skia.module.Blink": {
+    "Keybind": 0,
+    "Enabled": false
+  },
+  "dev.natrin.skia.module.FullBright": {
+    "Keybind": 0,
+    "Enabled": false
+  },
+  "dev.natrin.skia.module.KillAura": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Range": 4.2000003,
+    "APS": 10.0,
+    "Target": "Switch",
+    "Players": true,
+    "Monsters": true,
+    "Fake Block": false,
+    "Silent Rotation": true
+  },
+  "dev.natrin.skia.module.Spider": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Speed": 0.2
+  },
+  "dev.natrin.skia.module.AutoClick": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Min CPS": 8.0,
+    "Max CPS": 12.0,
+    "Mode": "Both",
+    "Mine Checl": true
+  },
+  "dev.natrin.skia.module.BlockPlacer": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Delay": 2.0
+  },
+  "dev.natrin.skia.module.TPAura": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Max Range": 12.0,
+    "Attack Delay": 8.0,
+    "Teleport Distance": 6.0
+  },
+  "dev.natrin.skia.module.AntiSniper": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Hide Title": true,
+    "Hide Chat": false
+  },
+  "dev.natrin.skia.module.VehicleFly": {
+    "Enabled": false,
+    "Keybind": 0,
+    "UpSpeed": 0.5,
+    "DownSpeed": 0.5,
+    "HorizontalSpeed": 1.0,
+    "AutoPilot": false
+  },
+  "dev.natrin.skia.module.Speed": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Auto Sprint": true,
+    "Auto Jump": true
+  },
+  "dev.natrin.skia.module.ArrayList": {
+    "Keybind": 0,
+    "Enabled": true,
+    "Alignment": "Right",
+    "Decoration": "Bar",
+    "Deco Position": "Auto",
+    "Outline": true,
+    "Outline Opacity": 0.35,
+    "Merge Modules": false,
+    "Spacing": 6.0,
+    "Corner Radius": 8.0,
+    "Background Alpha": 35.0,
+    "Font Scale": 1.1,
+    "PosX": 0.98,
+    "PosY": 0.02
+  },
+  "dev.natrin.skia.module.Velocity": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Mode": "JumpReset",
+    "Chance (%)": 100.0,
+    "Attack Packets": 1.0,
+    "Reduce XZ": 0.0
+  },
+  "dev.natrin.skia.module.OutlineESP": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Show Self": false,
+    "Team Check": false,
+    "Passives": false,
+    "Hostiles": false,
+    "Range": 100.0,
+    "Player Color": -1,
+    "Passive Color": -16711936,
+    "Hostile Color": -65536,
+    "Team Color": false,
+    "Killer": false
+  },
+  "dev.natrin.skia.module.Scaffold": {
+    "Keybind": 0,
+    "Enabled": false,
+    "Edge Disnance": 0.3,
+    "Min Height": 3.0,
+    "Only Ground": true,
+    "Check Below": true,
+    "Smart Mode": true
+  },
+  "dev.natrin.skia.module.TargetHUD": {
+    "Keybind": 0,
+    "Enabled": true,
+    "Anim Speed": 0.14999999,
+    "Glass Opacity": 0.12,
+    "Outline": true,
+    "Outline Opacity": 0.35,
+    "Corner Radius": 12.0,
+    "PosX": 0.5,
+    "PosY": 0.75
+  }
+}
